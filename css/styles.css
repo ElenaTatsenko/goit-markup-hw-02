@@ -38,6 +38,7 @@ body {
     font-size: 18px;
     line-height: 2; 
     letter-spacing: 0.06em;
+    text-transform:uppercase;
  
   }
   .description {
@@ -72,6 +73,7 @@ body {
     font-size: 14px;
     line-height:1.14 ; 
     letter-spacing: 0.02em;
+    color: var(--main-color);
    
 }
 .nav-list-link:hover,
@@ -189,8 +191,17 @@ color: var(--accent-color);
 .logo-link-part {
     color: var(--complementary-color);
 }
+.adress.section{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
 .physical-adress {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     font-style: normal;
+    color: var(--complementary-color);
 } 
  
 
@@ -202,9 +213,7 @@ color: var(--accent-color);
     font-style: normal;
 
 }
-.physical-adress {
-    color: var(--complementary-color);
-}
+  
 .adress-link:hover,
 .adress-link:focus{
 color: var(--accent-color);
